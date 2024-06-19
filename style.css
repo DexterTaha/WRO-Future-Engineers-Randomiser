@@ -1,0 +1,87 @@
+body {
+    overflow: hidden;
+    background-color: #1D438E;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    font-family: 'Arial', sans-serif;
+}
+
+img {
+    -webkit-user-drag: none;
+}
+
+.largeButton {
+    width: 200px;
+    height: 40px;
+    margin: 16px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #3A6EA5;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.largeButton:hover {
+    background-color: #285078;
+}
+
+.largeButton:active {
+    background-color: #1A3852;
+    border-style: inset;
+}
+
+#banner {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    height: 80px;
+    image-rendering: pixelated;
+}
+
+#randomiseWithoutPillars,
+#randomiseWithPillars,
+#reset {
+    position: absolute;
+    top: 100px;
+}
+
+#randomiseWithoutPillars {
+    left: 16px;
+}
+
+#randomiseWithPillars {
+    left: 246px;
+}
+
+#reset {
+    left: 476px;
+}
+
+#canvas {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    aspect-ratio: 1 / 1;
+    background-color: #ffffff;
+    border-left: 4px solid #ffffff;
+}
+
+#rickastley {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: #000000;
+    z-index: 1000;
+}
